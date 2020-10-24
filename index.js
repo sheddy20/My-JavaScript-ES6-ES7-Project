@@ -1,17 +1,6 @@
-const employeeInfo = [{
-    name: 'shedrack',
-    start: 1990,
-    end: 2009,
-}, {
-    name: 'Axwell',
-    start: 1996,
-    end: 2011,
-}, {
-    name: 'Anthony',
-    start: 2010,
-    end: 2020,
-}];
+let name = "drew Binsky";
 
-const filterAll = employeeInfo.filter(emp => emp.name);
-
-console.log(filterAll);
+console.log(`hello ${name}`);
+console.error('hello world');
+console.warn('hey');
+console.time("hey you")

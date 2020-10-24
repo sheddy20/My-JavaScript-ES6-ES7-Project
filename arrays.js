@@ -15,6 +15,6 @@ for (let user in users) {
     console.log(user);
 }
 
-const newUsers = users.filter(user => user.length == 10)
+const newUsers = users.filter(user => user.length == 7)
 
 console.log(newUsers);

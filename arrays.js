@@ -1,20 +1,24 @@
-const users = [];
+//Arrays JavaScript
 
-users.push("Mark");
-users.push("systrom");
-users.push("ann");
-users.push("louis");
+const fruits = ['apples', 'bananas', 'mango', 'pineapple', 'pearl'];
 
-users.forEach((users, index) => {
+fruits[2] = "Coconut";
+fruits.push("Strawberry");
+fruits[50] = "Water melon";
 
-    console.log(`my name index ${index++} = ${users}`)
-})
+fruits.push("Lime oranges");
 
-for (let user in users) {
+fruits.unshift("Black Currants");
 
-    console.log(user);
+fruits.shift(0);
+
+if (Array.isArray("hello")) {
+    
+    console.log("Arrays is of fruits");
+
+} else {
+
+    console.log("Arrays of fruits is not fruits");
 }
 
-const newUsers = users.filter(user => user.length == 7)
-
-console.log(newUsers);
+console.log(fruits);
